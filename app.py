@@ -57,7 +57,7 @@ def get_article_text(url):
 
 def scrape_detik():
     articles = []
-    base_url = "https://www.detik.com/tag/tarian"
+    base_url = "https://www.detik.com/tag/tarian-jawa-tengah"
     headers = {'User-Agent': 'Mozilla/5.0'}
     try:
         res = requests.get(base_url, headers=headers, timeout=10)
